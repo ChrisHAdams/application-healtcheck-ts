@@ -1,0 +1,20 @@
+{
+  "name": "application-healthcheck-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "server:develop": "export NODE_ENV=development; parcel watch index.js",
+    "client:develop": "parcel watch src/client/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Adams",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "config": "^3.3.8"
+  }
+}
